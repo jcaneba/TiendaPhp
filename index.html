@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Página de HTML con CSS y Bootstrap" />
+<meta name="keywords" content="HTML5,Web,Ejercicios,etiquetas" />
+<meta name="author" content="Jesús" />
+<link rel="stylesheet" href="css/index.css" />
+<title>Página principal</title>
+</head>
+<body>
+	<header>
+		<img alt="Logotipo" src="img/logo.png"/>
+		<h1>Maquetación de páginas web</h1>
+		<a href="accesoUsuarios.html"><button>Acceder</button></a>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#personal">Principal</a></li>
+			<li><a href="#instituto">Fotos</a></li>
+			<li><a href="#noticia">Noticias</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+	</nav>
+	<div id="aside">
+		<aside id="noticia">
+			<h2>Noticias</h2>
+			<iframe src="https://elpais.com/"></iframe>
+		</aside>
+		<aside id="enlaces">
+			<h2>Enlaces externos</h2>
+			<ol>
+				<li>
+					<a href="https://jesuscaneba.neocities.org" target="_blank"><p>Mi Neocities</p></a>
+					<a href="https://jesuscaneba.neocities.org" target="_blank"><img src="img/neocities.png" alt="Código QR de Neocities"/></a>
+				</li>
+				<li>
+					<a href="https://github.com/jcaneba" target="_blank"><p>Mi GitHub</p></a>
+				</li>
+				<li>
+					<a href="https://www.iesvenancioblanco.es/index.php" target="_blank"><p>Página del Instituto</p></a>
+				</li>
+				<li>
+					<a href="https://www.w3schools.com/" target="_blank"><p>W3Schools</p></a>
+				</li>
+			</ol>
+		</aside>
+	</div>
+	<section id="principal">
+		<div id="personal">
+			<h2>Acerca de mí</h2>
+			<h3>Información personal</h3>
+			<img src="img/bart.png" alt="imagen de Bart Simpson"/>
+			<p>Alumno en el instituto IES Venancio Blanco cursando el Ciclo Formativo de Grado Superior en Diseño de Aplicaciones Multiplataforma (DAM).</p>
+			<p>Un alumno (sustantivo masculino) o una alumna (sustantivo femenino) es aquella persona que aprende de otra u otras personas, acepción que, en este caso, resulta ser sinónimo de discípulo. Se dice de cualquier persona respecto del que la educó y crio desde su niñez, aunque uno puede ser asimismo alumno de otra persona más joven. De hecho, al alumno se le puede generalizar como estudiante o también como aprendiz. Igualmente es alumno aquel o aquella que es discípulo respecto de su maestro, de la materia que aprende o de la escuela, colegio o universidad donde estudia. El estudiante es un alumno.​</p>
+			<p>Desde el punto de vista etimológico, en estricta consideración de la ciencia lingüística, «alumno» es una palabra proveniente del latín «alumnus» 'alumno, pupilo, discípulo', que corresponde al empleo sustantivo del participio pasado del verbo «alere», cuyo significado es ‘alimentar’ o ‘alimentarse’ y asimismo ‘sostener’, ‘mantener’, ‘promover’, ‘incrementar’,‘fortalecer’. En latín, el plural masculino o de grupos mixtos es alumni y el femenino es alumnae. Dado que (generalmente en los Estados Unidos de América) se utiliza asiduamente la palabra Alumni para referirse al cuerpo de estudiantes recibidos de una institución, hay quienes erróneamente han inferido que "alumno" quiere decir "no iluminado" (por el conocimiento) y "alumni" los "sí iluminados". Al parecer este mito emana del parecido del fonema "alum-" con "alumbrado" y la finalización "-no" y "-ni" como "no y si"; mas la etimología del lema "alumno" es pupilo o hijo adoptivo, no relacionado con el lema "alumbrar".</p>
+		</div>
+		<div id="instituto">
+			<h2>Acerca del instituto</h2>
+			<h3>IES VENANCIO BLANCO</h3>
+			<div id="imagenes">
+				<img src="img/vb1.jpg" alt="foto 1 del Instituto"/>
+				<img src="img/vb2.jpg" alt="foto 2 del Instituto"/>
+				<img src="img/vb3.jpg" alt="foto 3 del Instituto"/>
+				<img src="img/vb4.jpg" alt="foto 4 del Instituto"/>
+			</div>
+		</div>
+		<div id="contacto">
+			<h2>Vías de contacto</h2>
+			<table>
+				<tr>
+					<td>
+						<a href="mailto:secretaria@iesvb.es">Correo electrónico</a>
+						<img src="img/a.png" alt="imagen del correo electrónico"/>
+					</td>
+
+					<td>
+						<a href="https://www.facebook.com/pages/IES-Venancio-Blanco/106228249415817?ref=br_rs">Facebook</a>
+						<img src="img/facebook.png" alt="imagen de Facebook"/>
+					</td>
+					<td>
+						<a href="https://twitter.com/iesvenancio?lang=es">Twitter</a>
+						<img src="img/twitter.png" alt="imagen de Twitter"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+	<footer>
+		<p>Creado en clase en el año 2021-2022. Derechos Reservados &copy;</p>
+	</footer>
+</body>
+</html>
